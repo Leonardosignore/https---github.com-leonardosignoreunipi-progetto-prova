@@ -1,0 +1,37 @@
+/* reset del body di base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+      background-color: #1e293b;  /* Blu scuro */
+      color: white;               /* Testo bianco */
+      padding: 1rem 2rem;         /* Spaziatura interna: 1 rem sopra/sotto, 2 rem ai lati */
+      display: flex;              /* Allineamento orizzontale */
+      justify-content: space-between; /* Spazio tra logo e menu */
+      align-items: center;        /* Centra verticalmente gli elementi */
+}
+
+.search {
+    display: flex;              /* Allineamento orizzontale */
+    align-items: center;        /* Centra verticalmente gli elementi */
+    justify-content: space-between; /* Spazio tra input e bottone */
+}
+
+.search-input {
+    padding: 7px;            /* Spaziatura interna: 0.5 rem */
+    border: 1px solid #ccc;     /* Bordo grigio chiaro */
+    border-radius: 10px;        /* Angoli arrotondati */
+    margin-right: 0.5rem;       /* Spazio a destra */
+}
+.search-button {  /* Blu scuro */               /* Testo bianco */
+    border: solid;               /* Nessun bordo */
+    padding: 2px;       /* Spaziatura interna: 0.5 rem sopra/sotto, 1 rem ai lati */
+    border-radius: 20px;        /* Angoli arrotondati */
+    cursor: pointer;            /* Cambia il cursore al passaggio del mouse */
+}
+
+.search-button:hover {
+    background-color: #334155;  /* Blu scuro più chiaro */
+}
