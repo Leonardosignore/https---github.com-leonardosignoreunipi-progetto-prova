@@ -6,17 +6,22 @@
     <title>progettoX</title>
     <link rel="stylesheet" href="style.css">
     <body>
+        <script>
+            function searchF(){
+                alert ("('Funzione di ricerca non implementata')");
+            }
+        </script>
         
         <nav> <!-- contenitore semantico che indica che qua c'è una navbar-->
             <div class="search">
                 <input class = "search-input" type="text" placeholder="Cerca...">
-                <input type="button" value="Cerca" class="search-button">
+                <input onclick="searchF()" type="button" value="Cerca" class="search-button">
             </div>
             <div>
-                <h1 style="color: white; margin-right: 20px">Appunti Unipi</h1>
+                <h1 style="color: white; margin-right: 40px; font-family: 'Times New Roman', Times, serif;">unipi-appunti</h1>
             </div>
             <div>
-                <img style="background-color: white; padding: 5px; border-radius: 90px; margin-right: 20px;" src="Asset/Stemma_unipi.svg" alt="Logo Università di Pisa" width="50px">
+                <a href="404.html"><img style="background-color: white; padding: 0px; border-radius: 90px;" src="Asset/circle-user.svg" alt="Logo Università di Pisa" width="50px"></a>
             </div>
         </nav>
     </body>
