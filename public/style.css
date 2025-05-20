@@ -42,3 +42,22 @@ nav {
     background-color: #334155;  /* Blu scuro più chiaro */
     color: white;
 }
+
+.card {
+    border: solid 2px #1e293b; 
+    border-radius: 10px;       /* Bordo grigio chiaro */
+    align-items: center; display: grid; width: 25rem; height: 30rem;
+}
+
+.card-image {
+    width: 100%;
+    border: solid 2px #1e293b; /* Bordo grigio chiaro */
+    border-radius: 10px; /* Angoli arrotondati */
+    height: 20rem;
+    width: 20rem;
+}
+
+.link {
+    text-decoration: none; /* Nessuna sottolineatura */
+    color: black;       /* Blu scuro */
+}
